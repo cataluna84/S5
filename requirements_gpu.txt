@@ -1,13 +1,14 @@
-flax
-torch
-torchaudio
-torchvision
+flax==0.10.3
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
 tensorflow-datasets==4.5.2
 pydub==0.25.1
-datasets
-tqdm
+datasets==2.21.0
+tqdm==4.67.1
 --find-links https://storage.googleapis.com/jax-releases/jax_releases.html
-jax[cuda]>=0.5.0
-einops
-tokenizers
-wandb
+jax[cuda12]==0.5.0
+jaxlib==0.5.0
+einops==0.8.0
+tokenizers==0.21.0
+wandb==0.19.6
