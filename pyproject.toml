@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "S5"
+version = "0.1.0"
+description = "Simplified State Space Models for Sequence Modeling."
+authors = ["J.T.H. Smith <jsmith14@stanford.edu>", "A. Warrington", "S. Linderman"]
+
+[tool.poetry.dependencies]
+python = "^3.12.8"
+flax = "0.10.3"
+torch = "2.6.0"
+torchaudio = "2.6.0"
+torchvision = "0.21.0"
+tensorflow = "2.18.0"
+tensorflow-datasets = "4.9.7"
+pydub = "0.25.1"
+datasets = "2.21.0"
+tqdm = "4.67.1"
+jaxlib = "0.5.0"
+jax = "0.5.0"
+einops = "0.8.0"
+tokenizers = "0.21.0"
+wandb = "0.19.6"
+scikit-learn = "1.6.1"
+soundfile = "0.13.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
